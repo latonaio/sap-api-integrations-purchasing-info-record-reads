@@ -1,0 +1,7 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller/caller.go#L197",
+	"function": "sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller.(*SAPAPICaller).MaterialGroup",
+	"level": "ERROR",
+	"message": "convert error: Result data is not exist",
+	"time": "2022-09-16T17:43:18+09:00"
+}

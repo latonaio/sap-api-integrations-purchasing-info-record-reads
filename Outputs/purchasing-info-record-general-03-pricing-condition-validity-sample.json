@@ -1,0 +1,40 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller/caller.go#L79",
+	"function": "sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller.(*SAPAPICaller).General",
+	"level": "INFO",
+	"message": [
+		{
+			"ConditionRecord": "0000006869",
+			"ConditionValidityEndDate": "9999-12-31",
+			"ConditionValidityStartDate": "2022-09-16",
+			"ConditionApplication": "M",
+			"ConditionType": "PB00",
+			"PurgDocOrderQuantityUnit": "",
+			"PurchasingOrganization": "0001",
+			"PurchasingInfoRecordCategory": "0",
+			"PurchasingInfoRecord": "5300000000",
+			"Supplier": "100000",
+			"MaterialGroup": "",
+			"Material": "21",
+			"Plant": "0001",
+			"to_PurInfoRecdPrcgCndn": "http://100.21.57.120:8080/sap/opu/odata/sap/API_INFORECORD_PROCESS_SRV/A_PurInfoRecdPrcgCndnValidity(ConditionRecord='0000006869',ConditionValidityEndDate=datetime'9999-12-31T00%3A00%3A00')/to_PurInfoRecdPrcgCndn"
+		},
+		{
+			"ConditionRecord": "0000006868",
+			"ConditionValidityEndDate": "9999-12-31",
+			"ConditionValidityStartDate": "1998-01-01",
+			"ConditionApplication": "M",
+			"ConditionType": "PB00",
+			"PurgDocOrderQuantityUnit": "",
+			"PurchasingOrganization": "0001",
+			"PurchasingInfoRecordCategory": "0",
+			"PurchasingInfoRecord": "5300000000",
+			"Supplier": "100000",
+			"MaterialGroup": "",
+			"Material": "21",
+			"Plant": "",
+			"to_PurInfoRecdPrcgCndn": "http://100.21.57.120:8080/sap/opu/odata/sap/API_INFORECORD_PROCESS_SRV/A_PurInfoRecdPrcgCndnValidity(ConditionRecord='0000006868',ConditionValidityEndDate=datetime'9999-12-31T00%3A00%3A00')/to_PurInfoRecdPrcgCndn"
+		}
+	],
+	"time": "2022-09-16T17:49:54+09:00"
+}

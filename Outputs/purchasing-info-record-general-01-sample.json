@@ -1,0 +1,28 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller/caller.go#L65",
+	"function": "sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller.(*SAPAPICaller).General",
+	"level": "INFO",
+	"message": [
+		{
+			"PurchasingInfoRecord": "5300000000",
+			"Supplier": "100000",
+			"Material": "21",
+			"MaterialGroup": "",
+			"PurgDocOrderQuantityUnit": "PC",
+			"SupplierMaterialNumber": "TEST SUPPLIER MATERIAL NO",
+			"SupplierRespSalesPersonName": "",
+			"SupplierPhoneNumber": "",
+			"SupplierMaterialGroup": "",
+			"IsRegularSupplier": false,
+			"AvailabilityStartDate": "",
+			"AvailabilityEndDate": "",
+			"Manufacturer": "",
+			"CreationDate": "2022-09-16",
+			"PurchasingInfoRecordDesc": "",
+			"LastChangeDateTime": "2022-09-16T17:28:36+09:00",
+			"IsDeleted": false,
+			"to_PurgInfoRecdOrgPlantData": "http://100.21.57.120:8080/sap/opu/odata/sap/API_INFORECORD_PROCESS_SRV/A_PurchasingInfoRecord('5300000000')/to_PurgInfoRecdOrgPlantData"
+		}
+	],
+	"time": "2022-09-16T17:32:41+09:00"
+}

@@ -1,0 +1,41 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller/caller.go#L158",
+	"function": "sap-api-integrations-purchasing-info-record-reads/SAP_API_Caller.(*SAPAPICaller).Material",
+	"level": "INFO",
+	"message": [
+		{
+			"PurchasingInfoRecord": "5300000000",
+			"PurchasingInfoRecordCategory": "0",
+			"PurchasingOrganization": "0001",
+			"Plant": "",
+			"Supplier": "100000",
+			"Material": "21",
+			"MaterialGroup": "",
+			"PurgDocOrderQuantityUnit": "PC",
+			"PurchasingGroup": "001",
+			"MinimumPurchaseOrderQuantity": "1",
+			"StandardPurchaseOrderQuantity": "1",
+			"MaterialPlannedDeliveryDurn": "4",
+			"OverdelivTolrtdLmtRatioInPct": "0.0",
+			"UnderdelivTolrtdLmtRatioInPct": "0.0",
+			"UnlimitedOverdeliveryIsAllowed": false,
+			"LastReferencingPurchaseOrder": "",
+			"LastReferencingPurOrderItem": "0",
+			"NetPriceAmount": "800.00",
+			"MaterialPriceUnitQty": "1",
+			"PurchaseOrderPriceUnit": "PC",
+			"PriceValidityEndDate": "9999-12-31",
+			"InvoiceIsGoodsReceiptBased": true,
+			"TaxCode": "V1",
+			"IncotermsClassification": "",
+			"MaximumOrderQuantity": "0",
+			"IsRelevantForAutomSrcg": "",
+			"IsEvaluatedRcptSettlmtAllowed": false,
+			"IsPurOrderAllwdForInbDeliv": false,
+			"IsOrderAcknRqd": false,
+			"IsMarkedForDeletion": false,
+			"to_PurInfoRecdPrcgCndnValidity": "http://100.21.57.120:8080/sap/opu/odata/sap/API_INFORECORD_PROCESS_SRV/A_PurgInfoRecdOrgPlantData(PurchasingInfoRecord='5300000000',PurchasingInfoRecordCategory='0',PurchasingOrganization='0001',Plant='')/to_PurInfoRecdPrcgCndnValidity"
+		}
+	],
+	"time": "2022-09-16T17:54:23+09:00"
+}
