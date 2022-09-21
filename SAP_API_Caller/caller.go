@@ -60,30 +60,31 @@ func (c *SAPAPICaller) General(purchasingInfoRecord string) {
 	generalData, err := c.callPurchasingInfoRecordSrvAPIRequirementGeneral("A_PurchasingInfoRecord", purchasingInfoRecord)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(generalData)
 	}
-	c.log.Info(generalData)
 
 	orgPlantData, err := c.callToPurgInfoRecdOrgPlantData(generalData[0].ToPurgInfoRecdOrgPlantData)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(orgPlantData)
 	}
-	c.log.Info(orgPlantData)
 
 	validityData, err := c.callToPurInfoRecdPrcgCndnValidity(orgPlantData[0].ToPurInfoRecdPrcgCndnValidity)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(validityData)
 	}
-	c.log.Info(validityData)
 
 	cndnData, err := c.callToPurInfoRecdPrcgCndn(validityData[0].ToPurInfoRecdPrcgCndn)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(cndnData)
 	}
-	c.log.Info(cndnData)
+	return
 }
 
 func (c *SAPAPICaller) callPurchasingInfoRecordSrvAPIRequirementGeneral(api, purchasingInfoRecord string) ([]sap_api_output_formatter.General, error) {
@@ -153,23 +154,24 @@ func (c *SAPAPICaller) Material(purchasingInfoRecord, purchasingInfoRecordCatego
 	materialData, err := c.callPurchasingInfoRecordSrvAPIRequirementMaterial("A_PurgInfoRecdOrgPlantData", purchasingInfoRecord, purchasingInfoRecordCategory, supplier, material, purchasingOrganization, plant)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(materialData)
 	}
-	c.log.Info(materialData)
 
 	validityData, err := c.callToPurInfoRecdPrcgCndnValidity(materialData[0].ToPurInfoRecdPrcgCndnValidity)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(validityData)
 	}
-	c.log.Info(validityData)
 
 	cndnData, err := c.callToPurInfoRecdPrcgCndn(validityData[0].ToPurInfoRecdPrcgCndn)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(cndnData)
 	}
-	c.log.Info(cndnData)
+	return
 }
 
 func (c *SAPAPICaller) callPurchasingInfoRecordSrvAPIRequirementMaterial(api, purchasingInfoRecord, purchasingInfoRecordCategory, supplier, material, purchasingOrganization, plant string) ([]sap_api_output_formatter.PurchasingOrganizationPlant, error) {
@@ -195,23 +197,24 @@ func (c *SAPAPICaller) MaterialGroup(purchasingInfoRecord, purchasingInfoRecordC
 	materialGroupData, err := c.callPurchasingInfoRecordSrvAPIRequirementMaterialGroup("A_PurgInfoRecdOrgPlantData", purchasingInfoRecord, purchasingInfoRecordCategory, supplier, materialGroup, purchasingOrganization, plant)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(materialGroupData)
 	}
-	c.log.Info(materialGroupData)
 
 	validityData, err := c.callToPurInfoRecdPrcgCndnValidity(materialGroupData[0].ToPurInfoRecdPrcgCndnValidity)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(validityData)
 	}
-	c.log.Info(validityData)
 
 	cndnData, err := c.callToPurInfoRecdPrcgCndn(validityData[0].ToPurInfoRecdPrcgCndn)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(cndnData)
 	}
-	c.log.Info(cndnData)
+	return
 }
 
 func (c *SAPAPICaller) callPurchasingInfoRecordSrvAPIRequirementMaterialGroup(api, purchasingInfoRecord, purchasingInfoRecordCategory, supplier, materialGroup, purchasingOrganization, plant string) ([]sap_api_output_formatter.PurchasingOrganizationPlant, error) {
